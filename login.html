@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in/Signup</title>
+    <style>
+        body{ 
+            display: flex;
+            background-image: url("waste4.jpg");
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            margin-top: 10%;
+        }
+        input{
+            border-radius: 10px;
+            height: 20px;
+            width: 200px;
+        }
+        .loginform{
+            position: absolute;
+            top: 150px;
+            width: 700px;
+            height: 400px;
+            background-color: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            /* box-shadow: 2px 5px rgb(19, 13, 10); */
+        }
+        .loginform:hover{
+            box-shadow: 2px 5px rgb(19, 13, 10);
+        }
+        .login{
+            padding-left: 40px;
+            padding-top: 50px;
+            font-size: larger;
+            font-weight: bold;
+            height: 30px;
+           
+        }
+        .reg{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #log{
+            background-color: rgba(255,0,0,0.8);
+            height: 40px;width: 100px;
+            border-radius: 20px;
+            font-weight: 800;
+        }
+        #regi{
+            background-color: burlywood;
+            height: 40px;width: 150px;
+            border-radius: 20px;
+            font-weight: 800;
+            text-decoration: none;
+            color: brown;
+            padding-left: 5px;
+        }
+        /* .nav{
+    height: 85px;
+    display: flex;
+    margin-left: 0px;
+}
+#home{
+    margin-left: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+#about,#management,#login,#resources{
+    position: relative;
+    margin-left: 40px;
+    line-height: 100px;
+    text-align: center;   
+}
+a img{
+    margin-left: 100px;
+    margin-top: 30px;
+} */
+/* a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+div a:active{
+    border-bottom: 2px solid black;
+    color: black;
+    font: 900;
+} */
+    </style>
+</head>
+<body>
+    <!-- <div class="nav">
+        <div class="logo"><a href="#"><img src="logo1.jpg" alt="logo" height="40px"></a></div>
+        <div id="home"><a href="#">Home</a></div>
+        <div id="management"><a href="#">Management</a></div>
+        <div id="login"><a href="login.html">Login</a></div>
+        <div id="resources"><a href="index1.html">What We Do</a></div>
+        <div id="about"><a href="#">About</a></div>
+    </div> -->
+    <form action="" class="loginform">
+        <div class="login">
+            <label for="phone no">Enter mobile no:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="number" id="phone no" placeholder="Enter your no">
+        </div>
+        <div class="login">
+            <label for="email">Enter your E-mail:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="mail" id="email" placeholder="Enter your E-mail">
+        </div>
+        <div class="login">
+            <label for="password">Enter Your Password:</label>
+            <input type="password" name="pass" id="password" placeholder="Enter your password">
+        </div><br><hr>
+        <div class="reg">
+            <button id="log">Log In</button>
+            <button id="regi"><a href="register.html" id="regi">Register Here</a></button>
+        </div>
+
+    </form>
+</body>
+</html>

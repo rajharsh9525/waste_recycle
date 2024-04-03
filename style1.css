@@ -1,0 +1,125 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    height: 85px;
+    display: flex;
+    margin-left: 0px;
+}
+#home{
+    margin-left: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+#about,#management,#login,#resources{
+    position: relative;
+    margin-left: 40px;
+    line-height: 100px;
+    text-align: center;   
+}
+a img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+div a:active{
+    border-bottom: 2px solid black;
+    color: black;
+    font: 900;
+}
+.backimg{
+    background-image: url(waste4.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+}
+h1{
+    padding-top: 250px;
+    color: antiquewhite;
+    position: relative;
+    margin-left: 150px;
+}
+.backimg p{
+    font-size: larger;
+    font-weight: bolder;
+    color: wheat;
+    position: relative;
+    margin-left: 150px;
+}
+.foot{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#avail{
+    color: rgba(255,0,0,0.8);
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 180px;
+    padding-top: 15px;
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.c1,.c2,.c3,.c4{
+    list-style-type: none;
+}
+.para1,.para2,.para3,.para4{
+    position: relative;
+    left: 180px;
+    width: 1300px;
+    right: inherit;
+    top: 40px;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.img{
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+.foot{
+    background-image: url("img12_files/");
+}
+.foot{
+    background-image:linear-gradient(rgb(72, 174, 72),lightgreen);
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+.foot a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    margin-left: 20px;
+}
+.foot a:hover{
+    color: white;
+}
+.foot img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 600px;
+    top: 20px;
+}
+#two{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 350px;
+    top: 80px; 
+}
